@@ -1,0 +1,9 @@
+search_x_api:
+  bearer_token: twitter developer basic plan bearer token
+  fields: ["https://developer.twitter.com/en/docs/twitter-api/fields"]
+yaml:
+  path: /path/to/your_scraped_data.yaml
+sqlite: 
+  path: /path/to/your_scraped_data.db (need to create table first)
+  table: table_name
+  columns: [list, of, columns]
